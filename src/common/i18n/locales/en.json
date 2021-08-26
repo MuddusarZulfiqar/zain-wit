@@ -1,0 +1,19 @@
+{
+    "labels": {
+        "viewAll": "View All",
+        "home": "Home",
+        "howjoin": "how to join?",
+        "meetMentor": "MEET THE MENTORS",
+        "ourImpact": "our impact",
+        "email": "Email :",
+        "bio": "Bio :",
+        "close": "Close",
+        "discover": "Discover",
+        "contact": "contact us"
+    },
+    "buttons": {
+        "downloadBtn": "Click here to download the application form to be submitted",
+        "explore": "explore more",
+        "submit": "SUBMIT"
+    }
+}

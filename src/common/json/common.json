@@ -1,0 +1,177 @@
+{
+    "en": {
+        "years": [{
+                "index": 0,
+                "year": "2012"
+            },
+            {
+                "index": 1,
+                "year": "2013"
+            },
+            {
+                "index": 2,
+                "year": "2014"
+            },
+            {
+                "index": 3,
+                "year": "2015"
+            },
+            {
+                "index": 4,
+                "year": "2016"
+            },
+            {
+                "index": 5,
+                "year": "2017"
+            },
+            {
+                "index": 6,
+                "year": "2018"
+            },
+            {
+                "index": 7,
+                "year": "2019"
+            },
+            {
+                "index": 8,
+                "year": "2020"
+            },
+            {
+                "index": 9,
+                "year": "2021"
+            }
+        ],
+        "countries": [
+            {
+                "index": 0,
+                "image": "kuwait",
+                "name": "kuwait",
+                "mapImg":"KUWAIT_MAP.png"
+            },
+            {
+                "index": 1,
+                "image": "jordan",
+                "name": "jordan",
+                "mapImg":"JORDAN_MAP.png"
+            },
+            {
+                "index": 2,
+                "image": "ksa",
+                "name": "Saudia Arabia",
+                "mapImg":"SAUDI-ARABIA_MAP.png"
+            },
+            {
+                "index": 3,
+                "image": "south-sudan",
+                "name": "SOUTH SUDAN",
+                "mapImg":"SOUTH-SUDAN_MAP.png"
+            },
+            {
+                "index": 4,
+                "image": "sudan",
+                "name": "SUDAN",
+                "mapImg":"SUDAN_MAP.png"
+            },
+            {
+                "index": 5,
+                "image": "iraq",
+                "name": "Iraq",
+                "mapImg":"IRAQ_MAP.png"
+            },
+            {
+                "index": 6,
+                "image": "uae",
+                "name": "uae",
+                "mapImg":"Map-UAE_Map.png"
+            }
+        ]
+    },
+    "ar": {
+        "years": [
+             {
+                "index": 0,
+                "year": "2012"
+            },
+            {
+                "index": 1,
+                "year": "2013"
+            },
+            {
+                "index": 2,
+                "year": "2014"
+            },
+            {
+                "index": 3,
+                "year": "2015"
+            },
+            {
+                "index": 4,
+                "year": "2016"
+            },
+            {
+                "index": 5,
+                "year": "2017"
+            },
+            {
+                "index": 6,
+                "year": "2018"
+            },
+            {
+                "index": 7,
+                "year": "2019"
+            },
+            {
+                "index": 8,
+                "year": "2020"
+            },
+            {
+                "index": 9,
+                "year": "2021"
+            }
+        ],
+        "countries": [
+            {
+                "index": 0,
+                "image": "kuwait",
+                "name": "الكويت",
+                "mapImg":"KUWAIT_MAP.png"
+            },
+            {
+                "index": 1,
+                "image": "jordan",
+                "name": "الاردن",
+                "mapImg":"JORDAN_MAP.png"
+            },
+            {
+                "index": 2,
+                "image": "ksa",
+                "name": "المملكة العربية السعودية",
+                "mapImg":"SAUDI-ARABIA_MAP.png"
+            },
+            {
+                "index": 3,
+                "image": "south-sudan",
+                "name": "جنوب السودان",
+                "mapImg":"SOUTH-SUDAN_MAP.png"
+            },
+            {
+                "index": 4,
+                "image": "sudan",
+                "name": "السودان",
+                "mapImg":"SUDAN_MAP.png"
+            },
+            {
+                "index": 5,
+                "image": "iraq",
+                "name": "العراق",
+                "mapImg":"IRAQ_MAP.png"
+            },
+            {
+                "index": 6,
+                "image": "uae",
+                "name": "الإمارات العربية المتحدة",
+                "mapImg":"Map-UAE_Map.png"
+            }
+        ]
+    }
+}

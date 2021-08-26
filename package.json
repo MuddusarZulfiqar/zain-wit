@@ -1,0 +1,41 @@
+{
+  "name": "zain-wit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "gsap": "npm:@gsap/shockingly@^3.7.0",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.25.0",
+    "vue-router": "^3.5.2",
+    "vue-scrollbar-live": "^5.7.1",
+    "vue-smooth-scrollbar": "^0.1.2",
+    "vuescroll": "^4.17.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "prettier": "^2.2.1",
+    "sass-loader": "^8.0.2",
+    "swiper": "^6.7.5",
+    "vue-fixed-header": "^3.2.15",
+    "vue-page-transition": "^0.2.2",
+    "vue-recaptcha": "^1.3.0",
+    "vue-select": "^3.12.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

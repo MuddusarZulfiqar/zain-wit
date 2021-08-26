@@ -1,0 +1,72 @@
+:root {
+    --primary: #d31b88;
+    --secondary: #6e337a;
+    --yellow: #d1c12f;
+    --textcolor: #444444;
+    // --highlight: #eada2f;
+    --highlight: #cf0073;
+    --bg: #f8f8f8;
+    --nav-item-offset: 10vw;
+    --nav-item-hover-offset: 2%;
+    --easing: cubic-bezier(.8, 0, .2, 1);
+    --duration: .6s;
+    --overlay-bg: #000 !important;
+    --transition-duration: 0.4s !important;
+    --toggleColor:var(--primary);
+}
+
+// @font-face {
+//     font-family: 'qt_zain_bold';
+//     src: url("fonts/qt_zain_bold/qt_zaintext_bold_pcwebfont.eot");
+//     src: url("fonts/qt_zain_bold/qt_zaintext_bold_pcwebfont.eot?#iefix") format("embedded-opentype"),
+//     url("fonts/qt_zain_bold/qt_zaintext_bold_pcwebfont.woff") format("woff"),
+//     url("fonts/qt_zain_bold/qt_zaintext_bold_pcwebfont.ttf") format("truetype"),
+//     url("fonts/qt_zain_bold/qt_zaintext_bold_pcwebfont.svg#qt_zaintext_bold_pcbold") format("svg");
+//     font-weight: normal;
+//     font-style: normal; }
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+@import "functions";
+// Fonts
+$primary-font: "Nunito Sans",
+sans-serif;
+// $arabic-font: 'qt_zaintext_bold_pcwebfont';
+//** Primary Font
+// font sizes
+$h--1: ( base: rem(36px),
+mobile: rem(25px),
+tablet: rem(30px),
+wide: rem(36px),
+);
+$h--2: ( base: rem(22px),
+mobile: rem(18px),
+tablet: rem(20px),
+wide: rem(22px),
+);
+$h--3: ( base: rem(20px),
+mobile: rem(16px),
+tablet: rem(18px),
+wide: rem(20px),
+);
+$h--4: ( base: rem(20px),
+mobile: rem(16px),
+tablet: rem(18px),
+wide: rem(20px),
+);
+$h--5: ( base: rem(24px),
+mobile: rem(20px),
+tablet: rem(22px),
+wide: rem(24px),
+);
+$h--6: ( base: rem(24px),
+mobile: rem(20px),
+tablet: rem(22px),
+wide: rem(24px),
+);
+$p: rem(18px);
+$p--large: rem(20px);
+$p--medium: rem(16px);
+$p--small: rem(12px);
+$breakpoints: ( mobile: 414px,
+tablet: 991px,
+wide: 1300px,
+) !default;

@@ -1,0 +1,78 @@
+{
+    "en":[
+        {
+            "id":0,
+            "SearchSection":{
+                "title":"about us",
+                "icon":{
+                    "icon-id":"chat-icon",
+                    "icon-viewbox":"0 0 639.38 588.24"
+                },
+                "subTitle":"Message from the CEO"
+            },
+            "card":{
+                 "date":"5 MAY - 2020",
+                 "title":"Mr. Bader Nasser Al-Kharafi",
+                 "details":["It is with great pride that I address our Zain family.","Zain has accomplished many achievements never before encountered in the industry. Our leading pace has always been accredited to our culture..."],
+                 "btnLink":"#",
+                 "mediaImage":true,
+                 "media":[
+                    {
+                       "image" : [
+                        "zain_hackathon.png"
+                       ]
+                    }
+                ]
+            }
+        },
+        {
+            "id":1,
+            "SearchSection":{
+                "title":"about us",
+                "icon":{
+                    "icon-id":"chat-icon",
+                    "icon-viewbox":"0 0 639.38 588.24"
+                },
+                "subTitle":"Message from the CEO"
+            },
+            "card":{
+                 "date":"5 MAY - 2020",
+                 "title":"Mr. Bader Nasser Al-Kharafi",
+                 "details":["It is with great pride that I address our Zain family.","Zain has accomplished many achievements never before encountered in the industry. Our leading pace has always been accredited to our culture..."],
+                 "btnLink":"#",
+                 "media":[
+                    {
+                       "image" : [
+                        "zain_hackathon.png",
+                        "zain_hackathon.png",
+                        "zain_hackathon.png"
+                       ]
+                    }
+                ]
+            }
+        },
+        {
+            "id":2,
+            "SearchSection":{
+                "title":"about us",
+                "icon":{
+                    "icon-id":"chat-icon",
+                    "icon-viewbox":"0 0 639.38 588.24"
+                },
+                "subTitle":"Message from the CEO"
+            },
+            "card":{
+                 "date":"5 MAY - 2020",
+                 "title":"Mr. Bader Nasser Al-Kharafi",
+                 "details":["It is with great pride that I address our Zain family.","Zain has accomplished many achievements never before encountered in the industry. Our leading pace has always been accredited to our culture..."],
+                 "btnLink":"#",
+                 "media":[
+                     {
+                        "image" : "videoThumb.png",
+                        "video": ""
+                     }
+                 ]
+            }
+        }
+    ]
+}

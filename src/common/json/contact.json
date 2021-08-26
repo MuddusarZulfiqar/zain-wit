@@ -1,0 +1,185 @@
+{
+    "en": {
+        "years": [{
+                "index": 0,
+                "year": "2012"
+            },
+            {
+                "index": 1,
+                "year": "2013"
+            },
+            {
+                "index": 2,
+                "year": "2014"
+            },
+            {
+                "index": 3,
+                "year": "2015"
+            },
+            {
+                "index": 4,
+                "year": "2016"
+            },
+            {
+                "index": 5,
+                "year": "2017"
+            },
+            {
+                "index": 6,
+                "year": "2018"
+            },
+            {
+                "index": 7,
+                "year": "2019"
+            },
+            {
+                "index": 8,
+                "year": "2020"
+            },
+            {
+                "index": 9,
+                "year": "2021"
+            }
+        ],
+        "countries": [{
+                "index": 0,
+                "image": "group",
+                "name": "General Inquiries",
+                "contactButton": "Womenintech@zain.com "
+            },
+            {
+                "index": 1,
+                "image": "kuwait",
+                "name": "kuwait",
+                "contactButton": "Womenintech@kw.zain.com  "
+            },
+            {
+                "index": 2,
+                "image": "jordan",
+                "name": "jordan",
+                "contactButton": "Womenintech@jo.zain.com  "
+            },
+            {
+                "index": 3,
+                "image": "ksa",
+                "name": "SAUDI ARABIA",
+                "contactButton": "Womenintech@sa.zain.com  "
+            },
+            {
+                "index": 4,
+                "image": "south-sudan",
+                "name": "SOUTH SUDAN",
+                "contactButton": "Womenintech@ss.zain.com "
+            },
+            {
+                "index": 5,
+                "image": "sudan",
+                "name": "SUDAN",
+                "contactButton": "Womenintech@sd.zain.com "
+            },
+            {
+                "index": 6,
+                "image": "iraq",
+                "name": "Iraq",
+                "contactButton": "Womenintech@iq.zain.com  "
+            },
+            {
+                "index": 7,
+                "image": "bahrain",
+                "name": "bahrain",
+                "contactButton": "Womenintech@bh.zain.com  "
+            }
+        ]
+    },
+    "ar": {
+        "years": [{
+                "index": 0,
+                "year": "2012"
+            },
+            {
+                "index": 1,
+                "year": "2013"
+            },
+            {
+                "index": 2,
+                "year": "2014"
+            },
+            {
+                "index": 3,
+                "year": "2015"
+            },
+            {
+                "index": 4,
+                "year": "2016"
+            },
+            {
+                "index": 5,
+                "year": "2017"
+            },
+            {
+                "index": 6,
+                "year": "2018"
+            },
+            {
+                "index": 7,
+                "year": "2019"
+            },
+            {
+                "index": 8,
+                "year": "2020"
+            },
+            {
+                "index": 9,
+                "year": "2021"
+            }
+        ],
+        "countries": [{
+                "index": 0,
+                "image": "group",
+                "name": "تساؤلات عامة",
+                "contactButton": "Womenintech@zain.com "
+            }, {
+                "index": 1,
+                "image": "kuwait",
+                "name": "الكويت",
+                "contactButton": "Womenintech@kw.zain.com  "
+            },
+            {
+                "index": 2,
+                "image": "jordan",
+                "name": "الاردن",
+                "contactButton": "Womenintech@jo.zain.com  "
+            },
+            {
+                "index": 3,
+                "image": "ksa",
+                "name": "المملكة العربية السعودية",
+                "contactButton": "Womenintech@sa.zain.com   "
+            },
+            {
+                "index": 4,
+                "image": "south-sudan",
+                "name": "جنوب السودان",
+                "contactButton": "Womenintech@ss.zain.com  "
+            },
+            {
+                "index": 5,
+                "image": "sudan",
+                "name": "السودان",
+                "contactButton": "Womenintech@sd.zain.com  "
+            },
+            {
+                "index": 6,
+                "image": "iraq",
+                "name": "العراق",
+                "contactButton": "Womenintech@iq.zain.com    "
+            },
+            {
+                "index": 7,
+                "image": "bahrain",
+                "name": " البحرين",
+                "contactButton": "Womenintech@bh.zain.com   "
+            }
+        ]
+    }
+}

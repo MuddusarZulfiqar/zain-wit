@@ -1,0 +1,114 @@
+// .newsGalleryItem{
+//     width: 100%;
+//     padding: 55px 50px;
+//     background: #fff;
+// }
+.newsGalleryItem {
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
+    .scrollArea {
+        height: 127px;
+    }
+    background: #fff;
+    padding: rem(50px) rem(60px) rem(38px) rem(55px);
+    box-shadow: 0px 4px 9px 0px rgba($color: #000000, $alpha: 0.15);
+    h3 {
+        outline: none !important;
+        a {
+            color: var(--secondary);
+        }
+    }
+    &--date {
+        font-size: rem(24px);
+        font-weight: 800;
+        color: #cf0073;
+        display: inline-block;
+        margin-bottom: rem(28px);
+    }
+    &--title {
+        font-size: rem(28px);
+        font-weight: 900;
+        text-transform: uppercase;
+        color: var(--secondary);
+        max-width: 470px;
+        display: block;
+    }
+    &--description {
+        p {
+            font-size: rem(22px);
+            margin-top: rem(30px);
+            margin-bottom: unset;
+            color: #313131;
+            font-weight: 600;
+            @include truncate(4);
+        }
+    }
+    &--button {
+        background: #cf0073 !important;
+        margin-top: rem(25px);
+        &:hover {
+            background: var(--secondary) !important;
+        }
+    }
+    .mediaVideo {
+        position: relative;
+        &:hover {
+            a {
+                .icon {
+                    color: var(--primary);
+                }
+            }
+        }
+        .icon {
+            display: inline-block;
+            width: 65px;
+            height: 65px;
+            border: 3px solid;
+            padding: 15px;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: 0.3s ease all;
+        }
+    }
+    @media screen and (max-width:991px) {
+        padding: rem(30px);
+        &--title {
+            font-size: rem(25px);
+        }
+        &--description {
+            p {
+                font-size: rem(20px);
+            }
+        }
+    }
+    @media screen and (max-width:767px) {
+        margin: 0 20px;
+        .row {
+            flex-direction: column-reverse;
+        }
+        &--media {
+            text-align: center;
+            margin-bottom: rem(40px);
+            margin-top: rem(32px);
+        }
+    }
+    @media screen and (max-width:767px) {
+        padding: rem(30px);
+        &--title {
+            font-size: rem(25px);
+            max-width: 100%;
+        }
+        .mediaVideo {
+            .icon {
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+}

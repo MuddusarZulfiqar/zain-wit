@@ -1,0 +1,179 @@
+.financialReport {
+	&__title {
+		color: #131413;
+		margin-bottom: 0;
+		font-size: rem(22px);
+		margin-top: rem(38px);
+		/* 22px */
+	}
+	&__wrapper {
+		margin-top: rem(25px);
+	}
+	&__year {
+		position: relative;
+		padding: 0px 0px 0px 0px;
+		@media screen and (max-width: 1600px) {
+			margin: 0 60px;
+		}
+		.swiper-container {
+			@media screen and (max-width: 1600px) {
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+		}
+		&::before {
+			content: '';
+			position: absolute;
+			width: 97%;
+			height: 2px;
+			background: #a3a3a3;
+			bottom: 2px;
+			margin: auto;
+			left: 50%;
+			right: auto;
+			transform: translateX(-50%);
+			max-width: 1140px;
+			// @media screen and (max-width: 1600px) and (min-width: 767px) {
+			//     margin-inline: 15px;
+			// }
+		}
+		.sliderNavigation {
+			--arrow: var(--secondary);
+			&__controls {
+				// &--arrow {
+				//     @media screen and (max-width: 1600px) {
+				//         width: 45px;
+				//         height: 45px;
+				//         svg {
+				//             transform: scale(0.8);
+				//             transform-origin: center;
+				//         }
+				//     }
+				// }
+				#prevArrow {
+					top: 0;
+					transform: unset;
+					@media screen and (max-width: 1600px) {
+						left: -60px !important;
+						right: auto;
+					}
+					@media screen and (max-width: 991px) {
+						left: -40px !important;
+						right: auto;
+					}
+				}
+				#nextArrow {
+					top: 0;
+					transform: unset;
+					@media screen and (max-width: 1600px) {
+						right: -60px !important;
+						left: auto;
+					}
+					@media screen and (max-width: 991px) {
+						left: -40px !important;
+						right: auto;
+					}
+				}
+			}
+		}
+		&--link {
+			a {
+				font-size: rem(22px);
+				color: #585758;
+				/*#d5d5d5*/
+				font-weight: bold;
+				text-decoration: none;
+				padding-left: 0;
+				padding-right: 0;
+				position: relative;
+				padding-top: rem(20px);
+				padding-bottom: rem(20px);
+				text-align: center;
+				outline-offset: -5px;
+				@media screen and (max-width: 1600px) {
+					padding-top: rem(24px);
+				}
+				&::after {
+					content: '';
+					width: 100%;
+					height: 65%;
+					border: 2px solid transparent;
+					position: absolute;
+					top: 10px;
+					left: 0px;
+				}
+				&:active,
+				&:focus {
+					outline: none;
+					&::after {
+						border: 3px dashed #cf0073;
+						@media screen and (max-width: 1025px) {
+							display: none;
+						}
+					}
+				}
+				&.active {
+					color: var(--primary);
+					/*#e3ce13*/
+					&:hover {
+						color: var(--primary);
+					}
+					&::before {
+						content: '';
+						position: absolute;
+						width: 100%;
+						height: 6px;
+						background: #6e337a;
+						bottom: 0px;
+						left: 50%;
+						transform: translateX(-50%);
+					}
+				}
+				&:hover {
+					color: #585758;
+				}
+			}
+		}
+	}
+	&__body {
+		position: relative;
+		.sliderNavigation {
+			--arrow: var(--secondary);
+			&__controls {
+				#prevArrow {
+					@media screen and (min-width: 1600px) {
+						left: -35px !important;
+						top: 0;
+						transform: unset;
+					}
+					@media screen and (max-width: 1600px) {
+						left: -35px !important;
+					}
+				}
+				#nextArrow {
+					@media screen and (min-width: 1600px) {
+						right: -35px !important;
+						top: 0;
+						transform: unset;
+					}
+					@media screen and (max-width: 1600px) {
+						right: -35px !important;
+					}
+				}
+			}
+		}
+		.tab-content {
+			margin-top: rem(25px);
+		}
+		.grid {
+			@media screen and (max-width: 1200px) {
+				--grid-item-width: calc((100%) - var(--grid-item-gap));
+				> div {
+					&:not(:last-child) {
+						margin-bottom: rem(25px);
+					}
+				}
+			}
+		}
+	}
+}

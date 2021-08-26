@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'qt_zaintext_bold_pcwebfont';
+    src: url('fonts/qt_zaintext_bold_pcwebfont.eot');
+    src: url('fonts/qt_zaintext_bold_pcwebfont.eot') format('embedded-opentype'),
+         url('fonts/qt_zaintext_bold_pcwebfont.woff2') format('woff2'),
+         url('fonts/qt_zaintext_bold_pcwebfont.woff') format('woff'),
+         url('fonts/qt_zaintext_bold_pcwebfont.ttf') format('truetype'),
+         url('fonts/qt_zaintext_bold_pcwebfont.svg#qt_zaintext_bold_pcwebfont') format('svg');
+}
